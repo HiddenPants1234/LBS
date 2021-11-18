@@ -1,0 +1,76 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+H:/2. Klasse/INF/Programme/Vehicle/Car.cpp
+Car.hpp
+H:/2. Klasse/INF/Programme/Vehicle/Car.hpp
+
+H:/2. Klasse/INF/Programme/Vehicle/Car.hpp
+Vehicle.hpp
+H:/2. Klasse/INF/Programme/Vehicle/Vehicle.hpp
+Motor.hpp
+H:/2. Klasse/INF/Programme/Vehicle/Motor.hpp
+iostream
+-
+string
+-
+
+H:/2. Klasse/INF/Programme/Vehicle/Mitsubishi.cpp
+Mitsubishi.hpp
+H:/2. Klasse/INF/Programme/Vehicle/Mitsubishi.hpp
+
+H:/2. Klasse/INF/Programme/Vehicle/Mitsubishi.hpp
+Car.hpp
+H:/2. Klasse/INF/Programme/Vehicle/Car.hpp
+Sub_Exception.hpp
+H:/2. Klasse/INF/Programme/Vehicle/Sub_Exception.hpp
+
+H:/2. Klasse/INF/Programme/Vehicle/Motor.cpp
+iostream
+-
+Motor.hpp
+H:/2. Klasse/INF/Programme/Vehicle/Motor.hpp
+
+H:/2. Klasse/INF/Programme/Vehicle/Motor.hpp
+string
+-
+
+H:/2. Klasse/INF/Programme/Vehicle/Sub_Exception.cpp
+Sub_Exception.hpp
+H:/2. Klasse/INF/Programme/Vehicle/Sub_Exception.hpp
+iostream
+-
+
+H:/2. Klasse/INF/Programme/Vehicle/Sub_Exception.hpp
+bits/exception.h
+-
+iostream
+-
+
+H:/2. Klasse/INF/Programme/Vehicle/Vehicle.cpp
+Vehicle.hpp
+H:/2. Klasse/INF/Programme/Vehicle/Vehicle.hpp
+iostream
+-
+
+H:/2. Klasse/INF/Programme/Vehicle/Vehicle.hpp
+iostream
+-
+
+H:/2. Klasse/INF/Programme/Vehicle/main.cpp
+iostream
+-
+Vehicle.hpp
+H:/2. Klasse/INF/Programme/Vehicle/Vehicle.hpp
+Car.hpp
+H:/2. Klasse/INF/Programme/Vehicle/Car.hpp
+Mitsubishi.hpp
+H:/2. Klasse/INF/Programme/Vehicle/Mitsubishi.hpp
+Sub_Exception.hpp
+H:/2. Klasse/INF/Programme/Vehicle/Sub_Exception.hpp
+

@@ -1,0 +1,58 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+H:/2. Klasse/INF/Programme/Subklassen/Cleaning_Staff.cpp
+Cleaning_Staff.hpp
+H:/2. Klasse/INF/Programme/Subklassen/Cleaning_Staff.hpp
+
+H:/2. Klasse/INF/Programme/Subklassen/Cleaning_Staff.hpp
+Person.hpp
+H:/2. Klasse/INF/Programme/Subklassen/Person.hpp
+string
+-
+
+H:/2. Klasse/INF/Programme/Subklassen/Person.cpp
+Person.hpp
+H:/2. Klasse/INF/Programme/Subklassen/Person.hpp
+iostream
+-
+
+H:/2. Klasse/INF/Programme/Subklassen/Person.hpp
+iostream
+-
+string
+-
+
+H:/2. Klasse/INF/Programme/Subklassen/Student.cpp
+Student.hpp
+H:/2. Klasse/INF/Programme/Subklassen/Student.hpp
+
+H:/2. Klasse/INF/Programme/Subklassen/Student.hpp
+Person.hpp
+H:/2. Klasse/INF/Programme/Subklassen/Person.hpp
+
+H:/2. Klasse/INF/Programme/Subklassen/Teacher.cpp
+Teacher.hpp
+H:/2. Klasse/INF/Programme/Subklassen/Teacher.hpp
+
+H:/2. Klasse/INF/Programme/Subklassen/Teacher.hpp
+Person.hpp
+H:/2. Klasse/INF/Programme/Subklassen/Person.hpp
+
+H:/2. Klasse/INF/Programme/Subklassen/main.cpp
+iostream
+-
+Person.hpp
+H:/2. Klasse/INF/Programme/Subklassen/Person.hpp
+Student.hpp
+H:/2. Klasse/INF/Programme/Subklassen/Student.hpp
+Teacher.hpp
+H:/2. Klasse/INF/Programme/Subklassen/Teacher.hpp
+Cleaning_Staff.hpp
+H:/2. Klasse/INF/Programme/Subklassen/Cleaning_Staff.hpp
+

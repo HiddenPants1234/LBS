@@ -1,0 +1,34 @@
+Nennen Sie 3 Gemeinsamkeiten die jedes Projekt besitzen soll:
+-Projekte bringen Veränderung mit sich
+-Projekte sind zeitlich begrenzt
+-Projekte sind Innovationen
+-Projekte überschreiten Organisationsstrukturen
+-Projekte sind einmalig und kommen in dieser Form nicht wieder vor
+-Projekte brauchen außerordentliche Ressourcen
+-Projekte sind Risiken ausgesetzt
+
+Warum sollte man Projektmanagement betreiben? Nenne Sie 3 Punkte:
+-durch Projektmanagement entsteht eine flexible und reationsfähige Organistion das genau auf ein Vorhaben abgestimmt ist
+-es erleichtert und fördert die direkte Zusammenarbeit
+-jedes Projektmitglied erhält klare Aufgaben und Kompetenzen
+-das Leistungspotenzial eines einzelnen wird durch Teamarbeit aktiviert
+-Ressourcenmanagement ist auf eine Stelle konzentriert
+-Kommunikationswege sind leichter zugänglich
+
+Welche Instrumente zum strukturieren von Projekten gibt es? Nennen Sie 3:
+-Projektstrukturplan
+-Ablaufplan
+-Phasenplan
+-Meilenstein
+
+Nenne Sie 3 typische Projektklassen:
+-Forschungs- und Entwicklungsprojekt (FuE-Projekt)
+-Organisationsprojekt
+-Investitionsprojekt
+
+Welche Projektarten gibt es? Nenne Sie 3:
+-Akzeptanzprojekt
+-Pionierprojekt
+-Standardprojekt
+-Potenzialprojekt
+

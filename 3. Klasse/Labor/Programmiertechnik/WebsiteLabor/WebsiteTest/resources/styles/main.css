@@ -1,0 +1,78 @@
+html{
+    background: url("../images/Background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.navUl{
+    margin: 0;
+    padding: 15px 0;
+    background: #0e1945;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.3);
+}
+.navUl li{
+    list-style: none;
+    text-align: center;
+    display: block;
+    border-right: 1px solid rgba(0,0,0,.4);
+}
+.navUl li:last-child{
+    border-right: none;
+}
+.navUl li a{
+    text-decoration: none;
+    padding: 0 50px;
+    display: block;
+}
+.navUl li a .icon{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto 10px;
+}
+.navUl li a .icon .fa{
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    font-size: 34px;
+    transition: 0.5s;
+    color: #695bd5;
+}
+.navUl li a .icon .fa:last-child{
+    color: #fc0ba1;
+}
+.navUl li a:hover .icon .fa{
+    transform: translateY(-100%);
+}
+.navUl li a .name{
+    color: #695bd5;
+    position: relative;
+    height: 20px;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+}
+.wrapper{
+    min-height: 100vh;
+    position: relative;
+}
+.content{
+    padding-bottom: 2.5rem;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}

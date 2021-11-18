@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="http://structorizer.fisch.lu/" version="3.28-04" preRepeat="until " postFor="to" preReturn="return" postForIn="in" preWhile="while " output="OUTPUT" input="INPUT" preFor="for" preExit="exit" preLeave="leave" ignoreCase="true" preForIn="foreach" stepFor="by" author="valentin.adlgasser" created="2018-06-26" changedby="valentin.adlgasser" changed="2018-06-26" origin="Structorizer 3.28-04" text="&#34;Schaltjahre&#34;" comment="" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;Jahresziffer eingeben&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+		<alternative text="&#34;Jahreszahl durch 4 teilbar&#34;" comment="" color="ffffff" disabled="0">
+			<qTrue>
+				<alternative text="&#34;Jahreszahl durch 100 teilbar&#34;" comment="" color="ffffff" disabled="0">
+					<qTrue>
+						<alternative text="&#34;Jahreszahl durch 400 teilbar&#34;" comment="" color="ffffff" disabled="0">
+							<qTrue color="ffffff">
+							</qTrue>
+							<qFalse>
+								<instruction text="&#34;Kein Schaltjahr&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+							</qFalse>
+						</alternative>
+					</qTrue>
+					<qFalse>
+						<instruction text="&#34;Schaltjahr&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+					</qFalse>
+				</alternative>
+			</qTrue>
+			<qFalse>
+				<instruction text="&#34;Kein Schaltjahr&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+			</qFalse>
+		</alternative>
+	</children>
+</root>

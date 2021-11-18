@@ -1,0 +1,3 @@
+H:/2. Klasse/INF/Programme/Subklassen/cmake-build-debug/CMakeFiles/edit_cache.dir
+H:/2. Klasse/INF/Programme/Subklassen/cmake-build-debug/CMakeFiles/Subklassen.dir
+H:/2. Klasse/INF/Programme/Subklassen/cmake-build-debug/CMakeFiles/rebuild_cache.dir

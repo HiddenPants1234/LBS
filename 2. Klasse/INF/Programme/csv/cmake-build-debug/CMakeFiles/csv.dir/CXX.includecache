@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+H:/2. Klasse/INF/Programme/csv/Watt.hpp
+iostream
+-
+fstream
+-
+sstream
+-
+string
+-
+regex
+-
+
+H:/2. Klasse/INF/Programme/csv/main.cpp
+iostream
+-
+fstream
+-
+sstream
+-
+string
+-
+regex
+-
+Watt.hpp
+H:/2. Klasse/INF/Programme/csv/Watt.hpp
+

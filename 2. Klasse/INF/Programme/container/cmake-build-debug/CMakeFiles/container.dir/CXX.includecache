@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+H:/2. Klasse/INF/Programme/container/VekQueue.cpp
+VekQueue.hpp
+H:/2. Klasse/INF/Programme/container/VekQueue.hpp
+iostream
+-
+queue
+-
+random
+-
+functional
+-
+
+H:/2. Klasse/INF/Programme/container/VekQueue.hpp
+vector
+-
+queue
+-
+cstdint
+-
+
+H:/2. Klasse/INF/Programme/container/main.cpp
+iostream
+-
+VekQueue.hpp
+H:/2. Klasse/INF/Programme/container/VekQueue.hpp
+

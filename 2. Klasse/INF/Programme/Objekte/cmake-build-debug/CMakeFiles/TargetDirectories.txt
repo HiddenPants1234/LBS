@@ -1,0 +1,3 @@
+H:/2. Klasse/INF/Objekte/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+H:/2. Klasse/INF/Objekte/cmake-build-debug/CMakeFiles/Objekte.dir
+H:/2. Klasse/INF/Objekte/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+H:/2. Klasse/INF/Programme/template/Ort.hpp
+iostream
+-
+
+H:/2. Klasse/INF/Programme/template/main.cpp
+iostream
+-
+Ort.hpp
+H:/2. Klasse/INF/Programme/template/Ort.hpp
+

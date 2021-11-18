@@ -1,0 +1,8 @@
+Beschreibung
+@author <Valentin Adlgasser>
+@date <Datum>
+
+if 
+Vali==Lit
+then
+LITLITLITLITLITLITLITLIT

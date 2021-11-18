@@ -1,0 +1,259 @@
+Current configuration : 1437 bytes
+!
+! Last configuration change at 09:54:12 UTC Tue Jan 15 2019
+version 15.3
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+!
+hostname valentin
+!
+boot-start-marker
+boot-end-marker
+!
+aqm-register-fnf
+!
+enable secret 5 $1$kBHQ$Igt7foakH0LmC2JYn8VTT1
+enable password 7 011F04170F
+!
+no aaa new-model
+!
+!
+!
+!
+!
+!
+
+
+!
+!
+!
+!
+no ip domain lookup
+ip cef
+no ipv6 cef
+!
+!
+!
+!
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+license udi pid C881-K9 sn FCZ2107401H
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface FastEthernet0
+ no ip address
+!
+interface FastEthernet1
+ no ip address
+!
+interface FastEthernet2
+ no ip address
+!
+interface FastEthernet3
+ no ip address
+!
+interface FastEthernet4
+ ip address 170.54.16.10 255.255.0.0
+ duplex auto
+ speed auto
+!
+interface Vlan1
+ description "vlan configuration instead of port configuration"
+ ip address 197.200.12.60 255.255.255.0
+!
+router rip
+ version 2
+ network 170.54.0.0
+ network 197.200.12.0
+!
+ip forward-protocol nd
+no ip http server
+no ip http secure-server
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+mgcp behavior rsip-range tgcp-only
+mgcp behavior comedia-role none
+mgcp behavior comedia-check-media-src disable
+mgcp behavior comedia-sdp-force disable
+!
+mgcp profile default
+!
+!
+!
+!
+banner motd ^COllah^C
+!
+line con 0
+ password 7 060A0D3218
+ login
+ no modem enable
+line aux 0
+line vty 0 4
+ login
+ transport input all
+!
+scheduler allocate 20000 1000
+!
+end
+
+valentin#term len 0
+valentin#sh run
+Building configuration...
+
+Current configuration : 1437 bytes
+!
+! Last configuration change at 09:54:12 UTC Tue Jan 15 2019
+version 15.3
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+!
+hostname valentin
+!
+boot-start-marker
+boot-end-marker
+!
+aqm-register-fnf
+!
+enable secret 5 $1$kBHQ$Igt7foakH0LmC2JYn8VTT1
+enable password 7 011F04170F
+!
+no aaa new-model
+!
+!
+!
+!
+!
+!
+
+
+!
+!
+!
+!
+no ip domain lookup
+ip cef
+no ipv6 cef
+!
+!
+!
+!
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+license udi pid C881-K9 sn FCZ2107401H
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface FastEthernet0
+ no ip address
+!
+interface FastEthernet1
+ no ip address
+!
+interface FastEthernet2
+ no ip address
+!
+interface FastEthernet3
+ no ip address
+!
+interface FastEthernet4
+ ip address 170.54.16.10 255.255.0.0
+ duplex auto
+ speed auto
+!
+interface Vlan1
+ description "vlan configuration instead of port configuration"
+ ip address 197.200.12.60 255.255.255.0
+!
+router rip
+ version 2
+ network 170.54.0.0
+ network 197.200.12.0
+!
+ip forward-protocol nd
+no ip http server
+no ip http secure-server
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+mgcp behavior rsip-range tgcp-only
+mgcp behavior comedia-role none
+mgcp behavior comedia-check-media-src disable
+mgcp behavior comedia-sdp-force disable
+!
+mgcp profile default
+!
+!
+!
+!
+banner motd ^COllah^C
+!
+line con 0
+ password 7 060A0D3218
+ login
+ no modem enable
+line aux 0
+line vty 0 4
+ login
+ transport input all
+!
+scheduler allocate 20000 1000
+!
+end

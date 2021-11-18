@@ -1,0 +1,37 @@
+h1{
+    line-height: 50px
+}
+h1 img{
+    width: auto;
+    height: 100px;
+    object-fit: contain;
+    float: left;
+    margin-top: -30px;
+    margin-left: 0px;
+}
+h1 .slogan{
+    color: #6EFCBB;
+    font-weight: bold;
+    font-size: 42pt;
+    font-family: sans-serif;
+    text-shadow: 4px 4px 0px #485c55;
+}
+.section{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.section .test{
+    color: #6EFCBB;
+    float: left;
+    border-bottom: 2px solid #6EFCBB;
+}
+.section .aside{
+    color: #6EFCBB;
+    float: right;
+}
+.article{
+    clear: both;
+    color: #6EFCBB;
+    padding-top: 20px;
+}
